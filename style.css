@@ -3,7 +3,7 @@ h1 {
   font-family: 'Inter', sans-serif;
   font-weight: 900;
   text-align: center;
-  color: #eb6b40;
+  color: #ffc000;
   font-size: 4em;
 }
 
@@ -19,6 +19,7 @@ h2 {
 /* Sets width of body */
 .container {
   max-width: 70%;
+  text-align: left;
 }
 
 /* Styling for section subheads */
@@ -40,9 +41,8 @@ h2 {
 }
 
 hr {
-  color: #397754;
   width: 30%;
-  border: 3px solid #eb6b40;
+  border: 3px solid #ffc000;
   margin: auto;
 }
 
@@ -50,7 +50,7 @@ hr {
 
 #contact {
   width: 30%;
-  margin: auto;
+  text-align: left;
 }
 
 .bi {
@@ -58,15 +58,13 @@ hr {
 }
 
 .bi:hover {
-  color: gray;
+  color: #ffc000;
 }
 
 /* Headshot */
 #headshot {
-  border-radius: 50%;
   max-width: 70%;
   max-height: auto;
-  border: 5px solid #eb6b40;
 }
 
 /* Sets width of bio */
@@ -81,7 +79,7 @@ hr {
   font-size: 0.8em;
   font-weight: 600;
   text-align: left;
-  color: #eb6b40;
+  color: #397754;
 }
 
 /* Styling for all body text */
@@ -104,12 +102,11 @@ a:hover {
 
 /* Resume section styling */
 
-#resumebreak {
-  color: #397754;
-  width: 80%;
-  border: 3px solid #eb6b40;
+#resume {
+  width: 70%;
   margin: auto;
 }
+
 
 .location {
   font-family: 'Inter', sans-serif;
