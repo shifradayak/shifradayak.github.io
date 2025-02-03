@@ -3,7 +3,7 @@ h1 {
   font-family: 'Inter', sans-serif;
   font-weight: 900;
   text-align: center;
-  color: #ffc000;
+  color: #775439;
   font-size: 4em;
 }
 
@@ -28,14 +28,14 @@ h2 {
   font-family: 'Inter', sans-serif;
   font-size: 0.6em;
   padding-top: 9px;
-  background-color: #ffc000;
+  background-color: #d3b38c;
   width: 35%;
   margin: auto;
 }
 
 hr {
   width: 30%;
-  border: 3px solid #ffc000;
+  border: 3px solid #d3b38c;
   margin: auto;
 }
 
@@ -51,7 +51,7 @@ hr {
 }
 
 .bi:hover {
-  color: #ffc000;
+  color: #775439;
 }
 
 /* Headshot */
@@ -117,7 +117,7 @@ a:hover {
 .location {
   font-family: 'Inter', sans-serif;
   font-size: 0.7em;
-  font-weight: 500;
+  font-weight: 800;
   text-align: left;
   color: #397754;
 }
@@ -125,9 +125,9 @@ a:hover {
 .role {
   font-family: 'Inter', sans-serif;
   font-size: 0.7em;
-  font-weight: 800;
+  font-weight: 500;
   text-align: left;
-  color: #ffc000;
+  color: #775439;
 }
 
 .responsibilities {
