@@ -171,3 +171,30 @@ a:hover {
     padding: 10px;
     box-sizing: border-box;
 }
+
+.image-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 10px;
+      max-width: 1000px;
+      margin: 0 auto;
+      padding: 40px 20px;
+    }
+
+    .image-grid a {
+      display: block;
+      width: 100%;
+      border-radius: 8px;
+      overflow: hidden;
+      transition: transform 0.3s;
+    }
+
+    .image-grid a:hover img {
+      transform: scale(1.03);
+    }
+
+    .image-grid img {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
