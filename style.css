@@ -3,33 +3,20 @@ h1 {
   font-family: 'Inter', sans-serif;
   font-weight: 900;
   text-align: center;
-  color: #775439;
-  font-size: 4em;
-}
-
-h2 {
-  font-family: 'Inter', sans-serif;
-  font-weight: 700;
-  text-align: center;
   color: #397754;
-  padding-bottom: 25px;
-  font-size: 2em;
-}
-
-/* Sets width of body */
-.container {
-  max-width: 70%;
-  text-align: left;
+  font-size: 3.3rem;
 }
 
 /* Styling for navbar */
 #navbar {
   text-align: center;
   font-family: 'Inter', sans-serif;
-  font-size: 0.6em;
+  font-size: 1.3rem;
+  font-weight: bolder;
+  color: #775439;
   padding-top: 9px;
-  background-color: #d3b38c;
-  width: 35%;
+  padding-bottom: 9px;
+  width: 25%;
   margin: auto;
 }
 
@@ -48,6 +35,7 @@ hr {
 
 .bi {
   color: black;
+  font-size: 1.9rem;
 }
 
 .bi:hover {
@@ -56,7 +44,7 @@ hr {
 
 /* Headshot */
 #headshot {
-  max-width: 70%;
+  max-width: 82%;
   max-height: auto;
 }
 
@@ -69,20 +57,22 @@ hr {
 /* Styling for names/titles (including in resume) */
 #name {
   font-family: 'Inter', sans-serif;
-  font-size: 0.8em;
+  font-size: 5rem;
   font-weight: 600;
   text-align: left;
-  color: #397754;
+  color: #775439;
 }
 
 /* Styling for all body text */
 p {
   font-family: 'Inter', sans-serif;
-  font-size: 0.6em;
+  font-size: 1.1rem;
   font-weight: 300;
   text-align: left;
   color: black;
 }
+
+/* Styling for clips page text*/
 
 
 /* Sets style for links */
@@ -95,8 +85,12 @@ a:hover {
   color: #397754;
 }
 
-#storylink {
-  color: #397754;
+#navlink {
+  color: #775439;
+}
+
+#navlink:hover {
+    color: #397754;
 }
 
 /* Resume and clips section styling */
@@ -108,15 +102,15 @@ a:hover {
 
 .sectionhead {
   font-family: 'Inter', sans-serif;
-  font-size: 1em;
-  font-weight: bolder;
-  color: #397754;
+  font-size: 1.6rem;
+  font-weight: 850;
+  color: #775439;
 }
 
 
 .location {
   font-family: 'Inter', sans-serif;
-  font-size: 0.7em;
+  font-size: 1.5rem;
   font-weight: 800;
   text-align: left;
   color: #397754;
@@ -124,7 +118,7 @@ a:hover {
 
 .role {
   font-family: 'Inter', sans-serif;
-  font-size: 0.7em;
+  font-size: 1.3rem;
   font-weight: 500;
   text-align: left;
   color: #775439;
@@ -132,7 +126,7 @@ a:hover {
 
 .responsibilities {
   font-family: 'Inter', sans-serif;
-  font-size: 0.6em;
+  font-size: 1.1rem;
   font-weight: 300;
   text-align: left;
   line-height: 150%;
@@ -143,58 +137,3 @@ a:hover {
   width: 80%;
   margin: auto;
 }
-
-#design {
-  width: 90%;
-  margin: left;
-}
-
-#video {
-  width: 90%;
-  margin: left;
-}
-
-/* Stuff for columns */
-
-.container {
-    display: flex;
-    justify-content: center; /* Center the columns */
-    gap: 20px;
-    max-width: 1200px; /* Optional: Maximum container width */
-    margin: 0 auto; /* Center the container itself */
-    padding: 0 10px;
-}
-
-.column {
-    flex: 0 0 45%; /* Ensures the columns take 45% of the container's width */
-    margin: 0 auto; /* Ensures equal space on both sides of each column */
-    padding: 10px;
-    box-sizing: border-box;
-}
-
-.image-grid {
-      display: grid;
-      grid-template-columns: repeat(3, 1fr);
-      gap: 10px;
-      max-width: 1000px;
-      margin: 0 auto;
-      padding: 40px 20px;
-    }
-
-    .image-grid a {
-      display: block;
-      width: 100%;
-      border-radius: 8px;
-      overflow: hidden;
-      transition: transform 0.3s;
-    }
-
-    .image-grid a:hover img {
-      transform: scale(1.03);
-    }
-
-    .image-grid img {
-      width: 100%;
-      height: auto;
-      display: block;
-    }
